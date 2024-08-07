@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f390097a-ef71-4dba-9838-8b8fd60a59a8" name="Changes" comment="trying jackson with animals" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/backend-calls" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YashKalia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YashKalia/groceries.git&quot;,
+    &quot;accountId&quot;: &quot;5197882b-02a1-49b5-9a0e-e860d2b67490&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jYEasLStKfwiQeXchh5pjUBqXo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GroceriesApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dr R.B. Kalia/Desktop/Projects/groceries",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.yashkalia.groceries.Models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dr R.B. Kalia\Desktop\Projects\groceries\groceries\Backend" />
+      <recent name="C:\Users\Dr R.B. Kalia\Desktop\Projects\groceries\groceries\src\main\Data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GroceriesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.yashkalia.groceries.GroceriesApplication" />
+      <module name="groceries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.yashkalia.groceries.Repositories.DiscountTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GroceriesApplication" />
+        <item itemvalue="Application.GroceriesApplication" />
+        <item itemvalue="Application.GroceriesApplication" />
+        <item itemvalue="Application.GroceriesApplication" />
+        <item itemvalue="Application.GroceriesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f390097a-ef71-4dba-9838-8b8fd60a59a8" name="Changes" comment="" />
+      <created>1721555682483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721555682483</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Basic project configuration">
+      <option name="closed" value="true" />
+      <created>1721572965975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721572965975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added domain objects and service">
+      <option name="closed" value="true" />
+      <created>1721768266224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721768266224</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed connnection issue in env file and adjusted data and domain object">
+      <option name="closed" value="true" />
+      <created>1721851130602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721851130603</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Trying to fix parsing data">
+      <option name="closed" value="true" />
+      <created>1722168427343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722168427343</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added main file">
+      <option name="closed" value="true" />
+      <created>1722168723591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722168723591</updated>
+    </task>
+    <task id="LOCAL-00006" summary="trying jackson with animals">
+      <option name="closed" value="true" />
+      <created>1722169799662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722169799662</updated>
+    </task>
+    <task id="LOCAL-00007" summary="trying jackson with animals">
+      <option name="closed" value="true" />
+      <created>1722179413299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722179413299</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Basic project configuration" />
+    <MESSAGE value="Added domain objects and service" />
+    <MESSAGE value="Fixed connnection issue in env file and adjusted data and domain object" />
+    <MESSAGE value="Trying to fix parsing data" />
+    <MESSAGE value="Added main file" />
+    <MESSAGE value="trying jackson with animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying jackson with animals" />
+  </component>
+</project>

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "66a154f316d1cc688ae974b7"
+  },
+  "ItemName": "Bread",
+  "Discount": {
+    "type": "BreadDiscount",
+    "DiscountList": [
+      {
+        "Age": 3,
+        "Buy": 1,
+        "Take": 2
+      },
+      {
+        "Age": 6,
+        "Buy": 1,
+        "Take": 3
+      }
+    ]
+  },
+  "Price": 1
+},
+{
+  "_id": {
+    "$oid": "66a154f316d1cc688ae974b8"
+  },
+  "ItemName": "Beer",
+  "Discount": {
+    "type": "BeerDiscount",
+    "DiscountList": [
+      {
+        "BeerType": "Belgium",
+        "SixPackDiscountPrice": 3
+      },
+      {
+        "BeerType": "Dutch",
+        "SixPackDiscountPrice": 2
+      },
+      {
+        "BeerType": "German",
+        "SixPackDiscountPrice": 4
+      }
+    ]
+  },
+  "Price": 0.5
+},
+{
+  "_id": {
+    "$oid": "66a154f316d1cc688ae974b9"
+  },
+  "ItemName": "Vegetable",
+  "Discount": {
+    "type": "VegetableDiscount",
+    "DiscountList": [
+      {
+        "weightLowerLimit": 0,
+        "weightUpperLimit": 100,
+        "discountPercentage": 5
+      },
+      {
+        "weightLowerLimit": 100,
+        "weightUpperLimit": 500,
+        "discountPercentage": 7
+      },
+      {
+        "weightLowerLimit": 500,
+        "weightUpperLimit": -1,
+        "discountPercentage": 10
+      }
+    ]
+  },
+  "Price": 1
+}]
