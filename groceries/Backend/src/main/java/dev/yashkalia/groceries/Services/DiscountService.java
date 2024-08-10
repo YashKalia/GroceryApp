@@ -5,12 +5,14 @@ import dev.yashkalia.groceries.Enums.ItemType;
 import dev.yashkalia.groceries.Models.CartItem.CartItem;
 import dev.yashkalia.groceries.Models.DiscountTypes.BeerDiscount;
 import dev.yashkalia.groceries.Models.DiscountTypes.BreadDiscount;
+import dev.yashkalia.groceries.Models.DiscountTypes.Discount;
 import dev.yashkalia.groceries.Models.DiscountTypes.VegetableDiscount;
 import dev.yashkalia.groceries.Models.Items.BeerItem;
 import dev.yashkalia.groceries.Models.Reciept.Reciept;
 import dev.yashkalia.groceries.Models.Reciept.RecieptItem;
 import dev.yashkalia.groceries.Repositories.DiscountTypes.BeerDiscountRepository;
 import dev.yashkalia.groceries.Repositories.DiscountTypes.BreadDiscountRepository;
+import dev.yashkalia.groceries.Repositories.DiscountTypes.DiscountRepository;
 import dev.yashkalia.groceries.Repositories.DiscountTypes.VegetableDiscountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,17 +33,18 @@ public class DiscountService {
 //    VegetableService vegetableService;
 
     @Autowired
-    private BreadDiscountRepository breadDiscountRepository;
+    private DiscountRepository discountRepository;
 //
 //    @Autowired
 //    private BeerDiscountRepository beerDiscountRepository;
 //
-    @Autowired
-    private VegetableDiscountRepository vegetableDiscountRepository;
+//    @Autowired
+//    private VegetableDiscountRepository vegetableDiscountRepository;
 
 //    List<BeerDiscount> beerDiscounts;
-    List<BreadDiscount> breadDiscounts;
-    List<VegetableDiscount> vegetableDiscounts;
+//    List<BreadDiscount> breadDiscounts;
+//    List<VegetableDiscount> vegetableDiscounts;
+      List<Discount> discounts;
 //    List<BeerItem> beerItems;
 
     public DiscountService() {
@@ -69,7 +72,7 @@ public class DiscountService {
                 totalOrderPrice+=totalPriceForBread;
                 System.out.println("totalBreadsToTake "+totalBreadsToTake);
                 System.out.println("totalPriceForBread "+totalPriceForBread);
-                reciept.add(new RecieptItem(cartItem, totalPriceForBread));
+                reciept.add(new RecieptItem(new CartItem(cartItem.getItemCount() +totalBreadsToTake,cartItem.getProps()), totalPriceForBread));
             }
 
             else  if(ItemType.valueOf(cartItem.getProps().getItemType()) == ItemType.Vegetable){
@@ -110,14 +113,12 @@ public class DiscountService {
             return sixPackCount * sixPackItem.getPrice() + remainingBeers * cartItem.getProps().getPrice();
         }
         return cartItem.getItemCount() * cartItem.getProps().getPrice();
-
-
     }
 
     //Returns the total number of breads that can be taken after discount
     private int getTotalBreadsToTakeAfterDiscount(CartItem cartItem){
-        this.breadDiscounts = breadDiscountRepository.findAll();
-        BreadDiscount breadDiscount  = this.breadDiscounts.stream().filter( discount -> {return discount.getAge() == cartItem.getProps().getAge();}).findAny().orElse(null);
+        this.discounts = discountRepository.findAll();
+        Discount breadDiscount  = this.discounts.stream().filter( discount -> {return discount.getAge() == cartItem.getProps().getAge();}).findAny().orElse(null);
         if(breadDiscount!=null){
             if(cartItem.getItemCount() < breadDiscount.getBuy()){
 //                return cartItem.getItemCount() * cartItem.getProps().getPrice();
@@ -130,8 +131,8 @@ public class DiscountService {
     }
 
     private float getVegetableDiscountPercentage(CartItem cartItem){
-        this.vegetableDiscounts = vegetableDiscountRepository.findAll();
-        VegetableDiscount vegetableDiscount  = this.vegetableDiscounts.stream().filter( discount -> {return discount.weightLowerLimit < cartItem.getItemCount() * cartItem.getProps().getWeight() && (discount.weightUpperLimit == -1 || discount.weightUpperLimit >= cartItem.getItemCount() * cartItem.getProps().getWeight());}).findAny().orElse(null);
+        this.discounts = discountRepository.findAll();
+        Discount vegetableDiscount  = this.discounts.stream().filter( discount -> {return discount.weightLowerLimit < cartItem.getItemCount() * cartItem.getProps().getWeight() && (discount.weightUpperLimit == -1 || discount.weightUpperLimit >= cartItem.getItemCount() * cartItem.getProps().getWeight());}).findAny().orElse(null);
         if(vegetableDiscount!=null){
             return vegetableDiscount.getDiscountPercentage();
         }

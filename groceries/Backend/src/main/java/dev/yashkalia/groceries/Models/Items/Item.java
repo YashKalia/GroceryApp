@@ -19,21 +19,25 @@ public class Item {
     private Integer Age;
     private String DiscountId;
     private Boolean IsPack;
-    private Integer Weight;
-
 
     @Override
     public String toString() {
         return "Item{" +
-                "Price=" + Price +
+                "ItemName='" + ItemName + '\'' +
+                ", Price=" + Price +
                 ", ItemType='" + ItemType + '\'' +
                 ", id='" + id + '\'' +
                 ", Age=" + Age +
                 ", DiscountId='" + DiscountId + '\'' +
                 ", IsPack=" + IsPack +
                 ", Weight=" + Weight +
-                ", ItemName='" + ItemName + '\'' +
+                ", ProductImage='" + ProductImage + '\'' +
                 '}';
     }
+
+    private Integer Weight;
+    private String ProductImage;
+
+
 }
 
