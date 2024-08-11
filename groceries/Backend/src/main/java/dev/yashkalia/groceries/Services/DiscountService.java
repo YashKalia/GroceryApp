@@ -68,7 +68,7 @@ public class DiscountService {
     private Float getPriceByItemCountForBeers(CartItem cartItem){
         int sixPackCount = cartItem.getItemCount() / 6;
         int remainingBeers = cartItem.getItemCount() % 6;
-        List<Item> beerItems = itemService.getAllBeerItems();
+        List<Item> beerItems = itemService.GetAllBeerItems();
         Item sixPackItem = beerItems.stream().filter( beer -> {return beer.getId().equals(cartItem.getProps().getDiscountId());}).findAny().orElse(null);
         if(sixPackItem !=null){
             return sixPackCount * sixPackItem.getPrice() + remainingBeers * cartItem.getProps().getPrice();

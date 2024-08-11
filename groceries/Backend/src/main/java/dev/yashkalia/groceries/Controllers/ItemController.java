@@ -38,7 +38,7 @@ public class ItemController {
     @PostMapping(value = "/updateItem", produces = "application/json")
     public ResponseEntity<Long> UpdateItem(@RequestBody Item updatedItem){
         System.out.println("id - "+updatedItem.getId() + "updatedprice - "+updatedItem.getPrice());
-        return new ResponseEntity<>(itemService.updateItem(updatedItem.getId(),updatedItem.getPrice()), HttpStatus.OK) ;
+        return new ResponseEntity<>(itemService.UpdateItem(updatedItem.getId(),updatedItem.getPrice()), HttpStatus.OK) ;
     }
 
 
