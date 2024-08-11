@@ -1,5 +1,5 @@
 <template>
-    <div class="beer-item-card" style="width: 18rem;">
+  <div class="item-card">
   <img :src="props.productImage"  class="card-img-top" alt="Product image" height =200rem>
   <div class="card-body">
     <h5 class="card-title">{{ itemName }}</h5>
@@ -48,5 +48,19 @@ function decrement() {
 <style>
 .card-text{
     margin-bottom:0px;
-}</style>
+}
+
+.item-card{
+  background-color: aliceblue;
+  border: 2.5px solid lightcoral;
+  width:16rem;
+}
+
+@media only screen and (max-width:1920px){
+  .item-card{
+    width: 10rem;
+  }
+}
+
+</style>
 

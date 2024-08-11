@@ -1,8 +1,7 @@
 <template>
   <div class="GroceryItemsGridContainer" >
-    {{ console.log(breadItems) }}
     <RecieptPopUp :isVisible ="isRecieptVisible" :reciept="reciept" @update:visible="isRecieptVisible = $event"/>
-    <button type="button" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout-></button>
+    <button type="submit" value="Submit" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout -></button>
     <div v-for="(itemType) in itemTypes" class="ProductTitle">
       <h1>{{itemType}}</h1>
       <div class="GridItemsContainer">       
@@ -69,25 +68,26 @@ onMounted(async () => {
 
 <style>
 .GroceryItemsGridContainer{
-  border: 1px solid black;
   height:100%;
 
 }
 
 .GridItemsContainer{
-  border: 1px solid black;
-  margin: 2rem;
-  display:grid;
+  margin: 1 rem;
+  display: grid;
   grid-auto-flow: column;
+
 }
 
 .ProductTitle{
-display:block;
-border: 1px solid black;
-
-.CheckoutButton{
-  float: right
+  display:block;
+  margin-bottom:1rem;
+  background-color: cyan;
 }
 
+.CheckoutButton{
+  float: right;
+  height:5rem;
+  width: 10rem;
 }
 </style>
