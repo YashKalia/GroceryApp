@@ -3,7 +3,6 @@ package dev.yashkalia.groceries.Models.DiscountTypes;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -13,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Discount {
     @Id
-    private ObjectId id;
+    private String id;
     private String type;
     //Bread discount
     private Integer Age;
@@ -23,4 +22,6 @@ public class Discount {
     public int weightLowerLimit;
     public int weightUpperLimit;
     public float discountPercentage;
+    //Beer discount
+    public Integer sixPackDiscountPrice;
 }

@@ -13,7 +13,7 @@ public class Item {
 
 //    @Id
     private String ItemName;
-    private Integer Price;
+    private Float Price;
     private String ItemType;
     private String id;
     private Integer Age;
