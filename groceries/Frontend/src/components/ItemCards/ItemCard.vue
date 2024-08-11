@@ -4,7 +4,7 @@
   <div class="card-body">
     <h5 class="card-title">{{ itemName }}</h5>
     <p v-if="weight > 0" class="card-text">Weight(g): {{ weight }}</p>
-    <p v-if="age >= 0" class="card-text">Age: {{ age }} days old</p>
+    <p v-if="age >= 0 && itemType == 'Bread'" class="card-text">Age: {{ age }} days old</p>
     <p class="card-text">Price(€): {{ price }}</p>
     <a class="btn btn-light" @click="decrement">-</a>
     <a class="btn btn-success" @click="increment">+</a>

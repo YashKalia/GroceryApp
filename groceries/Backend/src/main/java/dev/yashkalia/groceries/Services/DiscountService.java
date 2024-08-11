@@ -28,36 +28,28 @@ public class DiscountService {
         List<RecieptItem> reciept = new ArrayList<RecieptItem>();
         float totalOrderPrice=0;
         for(CartItem cartItem : cartItems){
-            if(ItemType.valueOf(cartItem.getProps().getItemType()) == ItemType.Beer){
-                 float totalPriceForBeer=calculateTotalPriceForBeersAfterDiscount(cartItem);
-                 totalOrderPrice+=totalPriceForBeer;
-//                System.out.println("totalPriceForBeer "+totalPriceForBeer);
-//                System.out.println("totalCartPrice "+totalOrderPrice);
-                reciept.add(new RecieptItem(cartItem, totalPriceForBeer));
+            switch (ItemType.valueOf(cartItem.getProps().getItemType())){
+                case Beer:
+                    float totalPriceAfterDiscount=calculateTotalPriceForBeersAfterDiscount(cartItem);
+                    totalOrderPrice+=totalPriceAfterDiscount;
+                    reciept.add(new RecieptItem(cartItem, totalPriceAfterDiscount));
+                    break;
+                case Bread:
+                    int totalBreadsToTakeAfterDiscount = getTotalBreadsToTakeAfterDiscount(cartItem);
+                    float totalPriceForBreadAfterDiscount =  cartItem.getItemCount() * cartItem.getProps().getPrice();
+                    totalOrderPrice+=totalPriceForBreadAfterDiscount;
+                    reciept.add(new RecieptItem(new CartItem(cartItem.getItemCount() + totalBreadsToTakeAfterDiscount, cartItem.getProps()), totalPriceForBreadAfterDiscount));
+                    break;
+                case Vegetable:
+                    float discountPercentage = getVegetableDiscountPercentage(cartItem);
+                    float totalPriceBeforeDiscountForVegetables =  cartItem.getItemCount() * cartItem.getProps().getPrice();
+                    float totalPriceAfterDiscountForVegetables = totalPriceBeforeDiscountForVegetables - (discountPercentage/100) * totalPriceBeforeDiscountForVegetables;
+                    totalOrderPrice+=totalPriceAfterDiscountForVegetables;
+                    reciept.add(new RecieptItem(cartItem, totalPriceAfterDiscountForVegetables));
+                    break;
+                default: throw new IllegalArgumentException("Item not not supported");
             }
-
-            else  if(ItemType.valueOf(cartItem.getProps().getItemType()) == ItemType.Bread){
-                int totalBreadsToTake = getTotalBreadsToTakeAfterDiscount(cartItem);
-                float totalPriceForBread =  cartItem.getItemCount() * cartItem.getProps().getPrice();
-                totalOrderPrice+=totalPriceForBread;
-//                System.out.println("totalBreadsToTake "+totalBreadsToTake);
-//                System.out.println("totalPriceForBread "+totalPriceForBread);
-                reciept.add(new RecieptItem(new CartItem(cartItem.getItemCount() +totalBreadsToTake,cartItem.getProps()), totalPriceForBread));
-            }
-
-            else  if(ItemType.valueOf(cartItem.getProps().getItemType()) == ItemType.Vegetable){
-                float discountPercentage = getVegetableDiscountPercentage(cartItem);
-                float totalPriceBeforeDiscountForVegetables =  cartItem.getItemCount() * cartItem.getProps().getPrice();
-                float totalPriceAfterDiscount = totalPriceBeforeDiscountForVegetables - (discountPercentage/100) * totalPriceBeforeDiscountForVegetables;
-                totalOrderPrice+=totalPriceAfterDiscount;
-//                System.out.println("discountPercentage "+discountPercentage);
-//                System.out.println("totalPriceBeforeDiscountForVegetables "+totalPriceBeforeDiscountForVegetables);
-//                System.out.println("totalPriceAfterDiscount "+totalPriceAfterDiscount);
-                reciept.add(new RecieptItem(cartItem, totalPriceAfterDiscount));
-            }
-
         }
-//        System.out.println("Total discounted price for totalCartPrice " + totalOrderPrice);
         return new Reciept(reciept, totalOrderPrice);
     }
 
