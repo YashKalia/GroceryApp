@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.ExecutableUpdateOperation;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
@@ -26,12 +27,16 @@ public class ItemService {
         return itemRepository.findAll();
     }
 
-    public Long UpdateItem(String id, Float updatedPrice){
-        ExecutableUpdateOperation.TerminatingUpdate<Item> updateresult =  mongoTemplate.update(Item.class);
+    public Long updateItemPrice(String id, Float updatedPrice) {
+        Update update = new Update().set("Price", updatedPrice);
+        UpdateResult result = mongoTemplate.updateFirst(
+                new Query(Criteria.where("_id").is(id)),
+                update,
+                Item.class
+        );
+        return result.getModifiedCount();
+    }
 
-
-        return updateresult.getModifiedCount();
-    };
 
     public List<Item> GetAllBeerItems(){
 
