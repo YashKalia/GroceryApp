@@ -5,7 +5,6 @@ import dev.yashkalia.groceries.Enums.ItemType;
 import dev.yashkalia.groceries.Models.Items.Item;
 import dev.yashkalia.groceries.Repositories.Items.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.ExecutableUpdateOperation;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;

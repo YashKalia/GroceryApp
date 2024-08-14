@@ -38,7 +38,7 @@ public class DiscountService {
                     int totalBreadsToTakeAfterDiscount = getTotalBreadsToTakeAfterDiscount(cartItem);
                     float totalPriceForBreadAfterDiscount =  cartItem.getItemCount() * cartItem.getProps().getPrice();
                     totalOrderPrice+=totalPriceForBreadAfterDiscount;
-                    reciept.add(new RecieptItem(new CartItem(cartItem.getItemCount() + totalBreadsToTakeAfterDiscount, cartItem.getProps()), totalPriceForBreadAfterDiscount));
+                    reciept.add(new RecieptItem(new CartItem(totalBreadsToTakeAfterDiscount, cartItem.getProps()), totalPriceForBreadAfterDiscount));
                     break;
                 case Vegetable:
                     float discountPercentage = getVegetableDiscountPercentage(cartItem);
@@ -86,7 +86,7 @@ public class DiscountService {
                 return cartItem.getItemCount();
             }
             int discountsApplicable = cartItem.getItemCount() / breadDiscount.getBuy();
-            return discountsApplicable * breadDiscount.getTake();
+            return  cartItem.getItemCount() + discountsApplicable * breadDiscount.getTake();
         }
         return cartItem.getItemCount();
     }
