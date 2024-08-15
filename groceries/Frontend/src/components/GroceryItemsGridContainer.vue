@@ -1,7 +1,7 @@
 <template>
   <div class="GroceryItemsGridContainer" >
     <RecieptPopUp :isVisible ="isRecieptVisible" :reciept="reciept" @update:visible="isRecieptVisible = $event"/>
-    <button type="submit" value="Submit" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout -></button>
+    <button type="submit" value="Submit" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout -></button>\
     <div v-for="(itemType) in itemTypes" class="ProductTitle">
       <h1>{{itemType}}</h1>
       <div class="GridItemsContainer">       

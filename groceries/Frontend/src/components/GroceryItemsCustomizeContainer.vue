@@ -30,12 +30,13 @@
   
   onMounted(async () => {
         // This code will run when the component is mounted
-        items.value = await getAllItems();
+      items.value = await getAllItems();
       console.log("items.value" , items.value)
 
       items.value.forEach(item => {
         if(!itemTypes.value.includes(item.itemType)){
           itemTypes.value.push(item.itemType)
+          console.log("Adding item")
         }
       });
       });

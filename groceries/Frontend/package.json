@@ -10,16 +10,19 @@
     "test:unit": "vitest"
   },
   "dependencies": {
+    "@types/jsdom": "^21.1.7",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "pinia": "^2.2.0",
+    "start-server-and-test": "^2.0.5",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@pinia/testing": "^0.1.5",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/test-utils": "^2.4.6",
-    "jsdom": "^24.1.0",
+    "jsdom": "^24.1.1",
     "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1",
     "vitest": "^1.6.0"
