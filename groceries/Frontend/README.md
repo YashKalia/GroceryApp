@@ -1,45 +1,62 @@
-# vue-project
+# GroceryApp
+Made with Java and Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+## Backend Setup
 
-## Recommended IDE Setup
+### Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+It is assumed that you have Java installed on your system. The project 
+was created with OpenJDK 22.0.2
 
-## Customize configuration
+Create a .env file in resources folder in the backend project and 
+copy the contents of the .env.example file into the .env file.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Then replace the actual values with the secrets.
 
-## Install NVM
+Then go to src/main/java/dev/yashkalia/groceries/GroceriesApplication.java and run the main method.
 
-See [NVM Install](https://github.com/coreybutler/nvm-windows/releases).
+The backend should now be running on port 8080.
 
 ## Install Node via NVM
 
+Go to https://github.com/coreybutler/nvm-windows/releases and download the nvm-setup.exe file.
+
+Once installed open the groceries/Frontend folder in Visual Studio Code and run in the integrated terminal
 ```sh
 nvm install 20.16.0
 ```
 
-## Project Setup
+Then run 
 
 ```sh
-npm install
+nvm list
 ```
 
-### Compile and Hot-Reload for Development
+to confirm the installed version of node.
+
+Then run
+
+```sh
+npm i
+```
+
+to install the dependencies. You should now see a node modules folder in the Frontend folder.
+
+Then run
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+to start the frontend.
+Navigate to the localhost address mentioned in the terminal to see the frontend.
+
+To run unit tests
 
 ```sh
-npm run build
+npm run test
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+See Package.json or NPM Scripts section for full set of scripts
 
-```sh
-npm run test:unit
-```
+
