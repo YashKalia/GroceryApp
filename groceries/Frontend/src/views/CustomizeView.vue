@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GroceryItemsCustomizeContainer from '@/components/GroceryItemsCustomizeContainer.vue';
+import GroceryItemsCustomizeContainer from '@/components/Containers/GroceryItemsCustomizeContainer.vue';
 </script>
 
 <template>

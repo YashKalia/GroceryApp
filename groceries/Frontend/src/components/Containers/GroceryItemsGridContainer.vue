@@ -1,9 +1,9 @@
 <template>
   <div class="GroceryItemsGridContainer" >
     <RecieptPopUp :isVisible ="isRecieptVisible" :reciept="reciept" @update:visible="isRecieptVisible = $event"/>
-    <button type="submit" value="Submit" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout -></button>\
+    <button type="submit" value="Submit" class="btn btn-primary" className="CheckoutButton" @click="handleCheckout()">Checkout -></button>
     <div v-for="(itemType) in itemTypes" class="ProductTitle">
-      <h1>{{itemType}}</h1>
+      <h1 class="product-type-heading">{{itemType}}</h1>
       <div class="GridItemsContainer">       
         <ItemCard v-for="(item) in items.filter( item => item.itemType == itemType)" 
         :itemName="item.itemName" 
@@ -22,16 +22,14 @@
 
 <script setup>
 import { getAllItems } from '@/services/ItemService';
-import ItemCard from './ItemCards/ItemCard.vue';
+import ItemCard from '../ItemCards/ItemCard.vue';
 import { CheckOut } from '@/services/CheckoutService';
-import RecieptPopUp from './Reciept/RecieptPopUp.vue';
+import RecieptPopUp from '../Reciept/RecieptPopUp.vue';
 import { useItemStore } from '@/itemstore';
 
 import {ref, onMounted} from "vue";
 
 const isRecieptVisible = ref(false);
-
-var breadItems = ref([])
 var reciept = ref({})
 var items = ref([])
 
@@ -49,15 +47,9 @@ async function handleCheckout() {
 
 }
 
-// function clostRecieptPopup(close){
-//   isRecieptVisible.value = close
-// }
-
 onMounted(async () => {
       // This code will run when the component is mounted
       items.value = await getAllItems();
-      console.log("items.value" , items.value)
-
       items.value.forEach(item => {
         if(!itemTypes.value.includes(item.itemType)){
           itemTypes.value.push(item.itemType)

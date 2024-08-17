@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "test:updateShapsots": "vitest -u"
   },
   "dependencies": {
     "@types/jsdom": "^21.1.7",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
+    "flush-promises": "^1.0.2",
     "pinia": "^2.2.0",
     "start-server-and-test": "^2.0.5",
     "vue": "^3.4.29",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@pinia/testing": "^0.1.5",
+    "@testing-library/vue": "^8.1.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^24.1.1",

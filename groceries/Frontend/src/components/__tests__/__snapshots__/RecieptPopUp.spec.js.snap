@@ -1,0 +1,1733 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RecieptPopUp.vue > should match snapshot 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <div
+        class="receipt-popup"
+        data-v-b10f5075=""
+      >
+        <div
+          class="popup-content"
+          data-v-b10f5075=""
+        >
+          <h2
+            data-v-b10f5075=""
+          >
+            Receipt
+          </h2>
+          <p
+            data-v-b10f5075=""
+          >
+            Thank you for your purchase!
+          </p>
+          <ul
+            data-v-b10f5075=""
+          >
+            
+            <li
+              data-v-b10f5075=""
+            >
+              2 x Item 1 = €20
+            </li>
+            <li
+              data-v-b10f5075=""
+            >
+              1 x Item 2 = €10
+            </li>
+            
+          </ul>
+          <p
+            data-v-b10f5075=""
+          >
+            Total(€): 30
+          </p>
+          <button
+            data-v-b10f5075=""
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "_depsLength": 5,
+        "_dirtyLevel": 0,
+        "_runnings": 0,
+        "_shouldSchedule": false,
+        "_trackId": 1,
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+        "trigger": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "_active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "_depsLength": 5,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "isVisible": true,
+            "reciept": {
+              "receiptItems": [
+                {
+                  "cartItem": {
+                    "itemCount": 2,
+                    "props": {
+                      "itemName": "Item 1",
+                    },
+                  },
+                  "id": "1",
+                  "totalPrice": 20,
+                },
+                {
+                  "cartItem": {
+                    "itemCount": 1,
+                    "props": {
+                      "itemName": "Item 2",
+                    },
+                  },
+                  "id": "2",
+                  "totalPrice": 10,
+                },
+              ],
+              "totalOrderPrice": 30,
+            },
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "close": [Function],
+            "emit": [Function],
+            "props": {
+              "isVisible": true,
+              "reciept": {
+                "receiptItems": [
+                  {
+                    "cartItem": {
+                      "itemCount": 2,
+                      "props": {
+                        "itemName": "Item 1",
+                      },
+                    },
+                    "id": "1",
+                    "totalPrice": 20,
+                  },
+                  {
+                    "cartItem": {
+                      "itemCount": 1,
+                      "props": {
+                        "itemName": "Item 2",
+                      },
+                    },
+                    "id": "2",
+                    "totalPrice": 10,
+                  },
+                ],
+                "totalOrderPrice": 30,
+              },
+            },
+            "ref": [Function],
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "_depsLength": 19,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": {
+            "update:visible": null,
+          },
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "isVisible": true,
+            "reciept": {
+              "receiptItems": [
+                {
+                  "cartItem": {
+                    "itemCount": 2,
+                    "props": {
+                      "itemName": "Item 1",
+                    },
+                  },
+                  "id": "1",
+                  "totalPrice": 20,
+                },
+                {
+                  "cartItem": {
+                    "itemCount": 1,
+                    "props": {
+                      "itemName": "Item 2",
+                    },
+                  },
+                  "id": "2",
+                  "totalPrice": 10,
+                },
+              ],
+              "totalOrderPrice": 30,
+            },
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "isVisible": {
+                "0": true,
+                "1": true,
+                "type": [Function],
+              },
+              "reciept": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+            },
+            [
+              "isVisible",
+            ],
+          ],
+          "provides": {},
+          "proxy": {
+            "isVisible": true,
+            "reciept": {
+              "receiptItems": [
+                {
+                  "cartItem": {
+                    "itemCount": 2,
+                    "props": {
+                      "itemName": "Item 1",
+                    },
+                  },
+                  "id": "1",
+                  "totalPrice": 20,
+                },
+                {
+                  "cartItem": {
+                    "itemCount": 1,
+                    "props": {
+                      "itemName": "Item 2",
+                    },
+                  },
+                  "id": "2",
+                  "totalPrice": 10,
+                },
+              ],
+              "totalOrderPrice": 30,
+            },
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "_active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "_depsLength": 19,
+                "_dirtyLevel": 0,
+                "_runnings": 0,
+                "_shouldSchedule": false,
+                "_trackId": 1,
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+                "trigger": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "close": [Function],
+            "emit": [Function],
+            "props": {
+              "isVisible": true,
+              "reciept": {
+                "receiptItems": [
+                  {
+                    "cartItem": {
+                      "itemCount": 2,
+                      "props": {
+                        "itemName": "Item 1",
+                      },
+                    },
+                    "id": "1",
+                    "totalPrice": 20,
+                  },
+                  {
+                    "cartItem": {
+                      "itemCount": 1,
+                      "props": {
+                        "itemName": "Item 2",
+                      },
+                    },
+                    "id": "2",
+                    "totalPrice": 10,
+                  },
+                ],
+                "totalOrderPrice": 30,
+              },
+            },
+            "ref": [Function],
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "Receipt",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <h2
+                      data-v-b10f5075=""
+                    >
+                      Receipt
+                    </h2>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "h2",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "Thank you for your purchase!",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      data-v-b10f5075=""
+                    >
+                      Thank you for your purchase!
+                    </p>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": ,
+                        "appContext": null,
+                        "children": [
+                          {
+                            "__v_isVNode": true,
+                            "__v_skip": true,
+                            "anchor": null,
+                            "appContext": null,
+                            "children": "2 x Item 1 = €20",
+                            "component": null,
+                            "ctx": [Circular],
+                            "dirs": null,
+                            "dynamicChildren": [],
+                            "dynamicProps": null,
+                            "el": <li
+                              data-v-b10f5075=""
+                            >
+                              2 x Item 1 = €20
+                            </li>,
+                            "key": "1",
+                            "patchFlag": 1,
+                            "props": {
+                              "key": "1",
+                            },
+                            "ref": null,
+                            "scopeId": "data-v-b10f5075",
+                            "shapeFlag": 9,
+                            "slotScopeIds": null,
+                            "ssContent": null,
+                            "ssFallback": null,
+                            "staticCount": 0,
+                            "suspense": null,
+                            "target": null,
+                            "targetAnchor": null,
+                            "targetStart": null,
+                            "transition": null,
+                            "type": "li",
+                          },
+                          {
+                            "__v_isVNode": true,
+                            "__v_skip": true,
+                            "anchor": null,
+                            "appContext": null,
+                            "children": "1 x Item 2 = €10",
+                            "component": null,
+                            "ctx": [Circular],
+                            "dirs": null,
+                            "dynamicChildren": [],
+                            "dynamicProps": null,
+                            "el": <li
+                              data-v-b10f5075=""
+                            >
+                              1 x Item 2 = €10
+                            </li>,
+                            "key": "2",
+                            "patchFlag": 1,
+                            "props": {
+                              "key": "2",
+                            },
+                            "ref": null,
+                            "scopeId": "data-v-b10f5075",
+                            "shapeFlag": 9,
+                            "slotScopeIds": null,
+                            "ssContent": null,
+                            "ssFallback": null,
+                            "staticCount": 0,
+                            "suspense": null,
+                            "target": null,
+                            "targetAnchor": null,
+                            "targetStart": null,
+                            "transition": null,
+                            "type": "li",
+                          },
+                        ],
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": [],
+                        "dynamicProps": null,
+                        "el": ,
+                        "key": null,
+                        "patchFlag": 128,
+                        "props": null,
+                        "ref": null,
+                        "scopeId": "data-v-b10f5075",
+                        "shapeFlag": 16,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "targetStart": null,
+                        "transition": null,
+                        "type": Symbol(v-fgt),
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <ul
+                      data-v-b10f5075=""
+                    >
+                      
+                      <li
+                        data-v-b10f5075=""
+                      >
+                        2 x Item 1 = €20
+                      </li>
+                      <li
+                        data-v-b10f5075=""
+                      >
+                        1 x Item 2 = €10
+                      </li>
+                      
+                    </ul>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "ul",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "Total(€): 30",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      data-v-b10f5075=""
+                    >
+                      Total(€): 30
+                    </p>,
+                    "key": null,
+                    "patchFlag": 1,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "Close",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <button
+                      data-v-b10f5075=""
+                    >
+                      Close
+                    </button>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "button",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="popup-content"
+                  data-v-b10f5075=""
+                >
+                  <h2
+                    data-v-b10f5075=""
+                  >
+                    Receipt
+                  </h2>
+                  <p
+                    data-v-b10f5075=""
+                  >
+                    Thank you for your purchase!
+                  </p>
+                  <ul
+                    data-v-b10f5075=""
+                  >
+                    
+                    <li
+                      data-v-b10f5075=""
+                    >
+                      2 x Item 1 = €20
+                    </li>
+                    <li
+                      data-v-b10f5075=""
+                    >
+                      1 x Item 2 = €10
+                    </li>
+                    
+                  </ul>
+                  <p
+                    data-v-b10f5075=""
+                  >
+                    Total(€): 30
+                  </p>
+                  <button
+                    data-v-b10f5075=""
+                  >
+                    Close
+                  </button>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "popup-content",
+                },
+                "ref": null,
+                "scopeId": "data-v-b10f5075",
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": ,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "2 x Item 1 = €20",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <li
+                      data-v-b10f5075=""
+                    >
+                      2 x Item 1 = €20
+                    </li>,
+                    "key": "1",
+                    "patchFlag": 1,
+                    "props": {
+                      "key": "1",
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "li",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "1 x Item 2 = €10",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <li
+                      data-v-b10f5075=""
+                    >
+                      1 x Item 2 = €10
+                    </li>,
+                    "key": "2",
+                    "patchFlag": 1,
+                    "props": {
+                      "key": "2",
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-b10f5075",
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "li",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": ,
+                "key": null,
+                "patchFlag": 128,
+                "props": null,
+                "ref": null,
+                "scopeId": "data-v-b10f5075",
+                "shapeFlag": 16,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": Symbol(v-fgt),
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Total(€): 30",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  data-v-b10f5075=""
+                >
+                  Total(€): 30
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": null,
+                "ref": null,
+                "scopeId": "data-v-b10f5075",
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "p",
+              },
+            ],
+            "dynamicProps": null,
+            "el": <div
+              class="receipt-popup"
+              data-v-b10f5075=""
+            >
+              <div
+                class="popup-content"
+                data-v-b10f5075=""
+              >
+                <h2
+                  data-v-b10f5075=""
+                >
+                  Receipt
+                </h2>
+                <p
+                  data-v-b10f5075=""
+                >
+                  Thank you for your purchase!
+                </p>
+                <ul
+                  data-v-b10f5075=""
+                >
+                  
+                  <li
+                    data-v-b10f5075=""
+                  >
+                    2 x Item 1 = €20
+                  </li>
+                  <li
+                    data-v-b10f5075=""
+                  >
+                    1 x Item 2 = €10
+                  </li>
+                  
+                </ul>
+                <p
+                  data-v-b10f5075=""
+                >
+                  Total(€): 30
+                </p>
+                <button
+                  data-v-b10f5075=""
+                >
+                  Close
+                </button>
+              </div>
+            </div>,
+            "key": 0,
+            "patchFlag": 0,
+            "props": {
+              "class": "receipt-popup",
+              "key": 0,
+            },
+            "ref": null,
+            "scopeId": "data-v-b10f5075",
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "targetStart": null,
+            "transition": null,
+            "type": "div",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "C:/Users/Dr R.B. Kalia/Desktop/Projects/groceries/groceries/Frontend/src/components/Reciept/RecieptPopUp.vue",
+            "__name": "RecieptPopUp",
+            "__scopeId": "data-v-b10f5075",
+            "components": {},
+            "emits": [
+              "update:visible",
+            ],
+            "props": {
+              "isVisible": [Function],
+              "reciept": [Function],
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 9,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="receipt-popup"
+          data-v-b10f5075=""
+        >
+          <div
+            class="popup-content"
+            data-v-b10f5075=""
+          >
+            <h2
+              data-v-b10f5075=""
+            >
+              Receipt
+            </h2>
+            <p
+              data-v-b10f5075=""
+            >
+              Thank you for your purchase!
+            </p>
+            <ul
+              data-v-b10f5075=""
+            >
+              
+              <li
+                data-v-b10f5075=""
+              >
+                2 x Item 1 = €20
+              </li>
+              <li
+                data-v-b10f5075=""
+              >
+                1 x Item 2 = €10
+              </li>
+              
+            </ul>
+            <p
+              data-v-b10f5075=""
+            >
+              Total(€): 30
+            </p>
+            <button
+              data-v-b10f5075=""
+            >
+              Close
+            </button>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "isVisible": true,
+          "reciept": {
+            "receiptItems": [
+              {
+                "cartItem": {
+                  "itemCount": 2,
+                  "props": {
+                    "itemName": "Item 1",
+                  },
+                },
+                "id": "1",
+                "totalPrice": 20,
+              },
+              {
+                "cartItem": {
+                  "itemCount": 1,
+                  "props": {
+                    "itemName": "Item 2",
+                  },
+                },
+                "id": "2",
+                "totalPrice": 10,
+              },
+            ],
+            "totalOrderPrice": 30,
+          },
+          "ref": "VTU_COMPONENT",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "__file": "C:/Users/Dr R.B. Kalia/Desktop/Projects/groceries/groceries/Frontend/src/components/Reciept/RecieptPopUp.vue",
+          "__name": "RecieptPopUp",
+          "__scopeId": "data-v-b10f5075",
+          "components": {},
+          "emits": [
+            "update:visible",
+          ],
+          "props": {
+            "isVisible": [Function],
+            "reciept": [Function],
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 8,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="receipt-popup"
+          data-v-b10f5075=""
+        >
+          <div
+            class="popup-content"
+            data-v-b10f5075=""
+          >
+            <h2
+              data-v-b10f5075=""
+            >
+              Receipt
+            </h2>
+            <p
+              data-v-b10f5075=""
+            >
+              Thank you for your purchase!
+            </p>
+            <ul
+              data-v-b10f5075=""
+            >
+              
+              <li
+                data-v-b10f5075=""
+              >
+                2 x Item 1 = €20
+              </li>
+              <li
+                data-v-b10f5075=""
+              >
+                1 x Item 2 = €10
+              </li>
+              
+            </ul>
+            <p
+              data-v-b10f5075=""
+            >
+              Total(€): 30
+            </p>
+            <button
+              data-v-b10f5075=""
+            >
+              Close
+            </button>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 4,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "runWithContext": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.4.34",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <div
+    class="receipt-popup"
+    data-v-b10f5075=""
+  >
+    <div
+      class="popup-content"
+      data-v-b10f5075=""
+    >
+      <h2
+        data-v-b10f5075=""
+      >
+        Receipt
+      </h2>
+      <p
+        data-v-b10f5075=""
+      >
+        Thank you for your purchase!
+      </p>
+      <ul
+        data-v-b10f5075=""
+      >
+        
+        <li
+          data-v-b10f5075=""
+        >
+          2 x Item 1 = €20
+        </li>
+        <li
+          data-v-b10f5075=""
+        >
+          1 x Item 2 = €10
+        </li>
+        
+      </ul>
+      <p
+        data-v-b10f5075=""
+      >
+        Total(€): 30
+      </p>
+      <button
+        data-v-b10f5075=""
+      >
+        Close
+      </button>
+    </div>
+  </div>,
+}
+`;

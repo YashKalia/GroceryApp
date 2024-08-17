@@ -5,8 +5,8 @@
     <h5 class="card-title">{{ itemName }}</h5>
     <p v-if="weight > 0" class="card-text">Weight(g): {{ weight }}</p>
     <p v-if="age >= 0" class="card-text">Age: {{ age }} days old</p>
-    <p class="card-text">Current Price(€): {{ price }}</p>
-    <p class="card-text">Enter Updated Price(€):</p>
+    <p class="card-text-current-price">Current Price(€): {{ price }}</p>
+    <p class="card-text-updated-price">Enter Updated Price(€):</p>
     <input  v-model="updatedPrice" placeholder="Add new numeric value" type="number"> 
     <a class="btn btn-success" @click="updateValue">Confirm</a>
   </div>
@@ -40,7 +40,6 @@ const updatedPrice = ref(props.price);
 
 async function updateValue() {
     var response = await UpdateItem(props.id, updatedPrice.value)
-    console.log("response",response)
 }
 
 </script>

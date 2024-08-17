@@ -1,0 +1,2116 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ItemCard.vue > should match snapshot 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <div
+        class="item-card"
+      >
+        <img
+          alt="Product image"
+          class="card-img-top"
+          height="200rem"
+          src="apple.jpg"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title"
+          >
+            Apple
+          </h5>
+          <p
+            class="card-text-weight"
+          >
+            Weight(g): 200
+          </p>
+          <!--v-if-->
+          <p
+            class="card-text-price"
+          >
+            Price(€): 1.2
+          </p>
+          <a
+            class="btn btn-light"
+          >
+            -
+          </a>
+          <a
+            class="btn btn-success"
+          >
+            +
+          </a>
+          <!--v-if-->
+        </div>
+      </div>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "_depsLength": 10,
+        "_dirtyLevel": 0,
+        "_runnings": 0,
+        "_shouldSchedule": false,
+        "_trackId": 1,
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+        "trigger": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "_active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "_depsLength": 10,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "age": 5,
+            "discountId": undefined,
+            "id": "1",
+            "isPack": false,
+            "itemName": "Apple",
+            "itemType": "Fruit",
+            "price": 1.2,
+            "productImage": "apple.jpg",
+            "weight": 200,
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "decrement": [Function],
+            "increment": [Function],
+            "itemCount": RefImpl {
+              "__v_isRef": true,
+              "__v_isShallow": false,
+              "_rawValue": 0,
+              "_value": 0,
+              "dep": Map {
+                ReactiveEffect {
+                  "_depsLength": 7,
+                  "_dirtyLevel": 0,
+                  "_runnings": 0,
+                  "_shouldSchedule": false,
+                  "_trackId": 1,
+                  "active": true,
+                  "allowRecurse": true,
+                  "deps": [
+                    Map {
+                      [Circular] => 1,
+                    },
+                    Map {
+                      [Circular] => 1,
+                    },
+                    Map {
+                      [Circular] => 1,
+                    },
+                    Map {
+                      [Circular] => 1,
+                    },
+                    Map {
+                      [Circular] => 1,
+                    },
+                    Map {
+                      [Circular] => 1,
+                    },
+                    [Circular],
+                  ],
+                  "fn": [Function],
+                  "onTrack": undefined,
+                  "onTrigger": undefined,
+                  "scheduler": [Function],
+                  "trigger": [Function],
+                } => 1,
+              },
+            },
+            "itemStore": {
+              "addToCart": [MockFunction spy],
+              "removeFromCart": [MockFunction spy],
+            },
+            "props": {
+              "age": 5,
+              "discountId": undefined,
+              "id": "1",
+              "isPack": false,
+              "itemName": "Apple",
+              "itemType": "Fruit",
+              "price": 1.2,
+              "productImage": "apple.jpg",
+              "weight": 200,
+            },
+            "ref": [Function],
+            "useItemStore": [MockFunction spy] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy],
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy],
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy],
+                    "removeFromCart": [MockFunction spy],
+                  },
+                },
+              ],
+            },
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "_depsLength": 7,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "age": 5,
+            "discountId": undefined,
+            "id": "1",
+            "isPack": false,
+            "itemName": "Apple",
+            "itemType": "Fruit",
+            "price": 1.2,
+            "productImage": "apple.jpg",
+            "weight": 200,
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "age": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "discountId": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "id": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "isPack": {
+                "0": true,
+                "1": true,
+                "type": [Function],
+              },
+              "itemName": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "itemType": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "price": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "productImage": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+              "weight": {
+                "0": false,
+                "1": true,
+                "type": [Function],
+              },
+            },
+            [
+              "isPack",
+            ],
+          ],
+          "provides": {},
+          "proxy": {
+            "age": 5,
+            "discountId": undefined,
+            "id": "1",
+            "isPack": false,
+            "itemName": "Apple",
+            "itemType": "Fruit",
+            "price": 1.2,
+            "productImage": "apple.jpg",
+            "weight": 200,
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "_active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "_depsLength": 7,
+                "_dirtyLevel": 0,
+                "_runnings": 0,
+                "_shouldSchedule": false,
+                "_trackId": 1,
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+                "trigger": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "decrement": [Function],
+            "increment": [Function],
+            "itemCount": 0,
+            "itemStore": {
+              "addToCart": [MockFunction spy],
+              "removeFromCart": [MockFunction spy],
+            },
+            "props": {
+              "age": 5,
+              "discountId": undefined,
+              "id": "1",
+              "isPack": false,
+              "itemName": "Apple",
+              "itemType": "Fruit",
+              "price": 1.2,
+              "productImage": "apple.jpg",
+              "weight": 200,
+            },
+            "ref": [Function],
+            "useItemStore": [MockFunction spy] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy],
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy],
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                        {
+                          "type": "return",
+                          "value": 1,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          {
+                            "age": 5,
+                            "discountId": undefined,
+                            "id": "1",
+                            "isPack": false,
+                            "itemName": "Apple",
+                            "itemType": "Fruit",
+                            "price": 1.2,
+                            "productImage": "apple.jpg",
+                            "weight": 200,
+                          },
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 3,
+                        },
+                      ],
+                    },
+                    "removeFromCart": [MockFunction spy] {
+                      "calls": [
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                        [
+                          "1",
+                        ],
+                      ],
+                      "results": [
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                        {
+                          "type": "return",
+                          "value": 0,
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  "type": "return",
+                  "value": {
+                    "addToCart": [MockFunction spy],
+                    "removeFromCart": [MockFunction spy],
+                  },
+                },
+              ],
+            },
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                ],
+                "el": <img
+                  alt="Product image"
+                  class="card-img-top"
+                  height="200rem"
+                  src="apple.jpg"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Product image",
+                  "class": "card-img-top",
+                  "height": "200rem",
+                  "src": "apple.jpg",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "img",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "Apple",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <h5
+                      class="card-title"
+                    >
+                      Apple
+                    </h5>,
+                    "key": null,
+                    "patchFlag": 1,
+                    "props": {
+                      "class": "card-title",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "h5",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "Weight(g): 200",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <p
+                      class="card-text-weight"
+                    >
+                      Weight(g): 200
+                    </p>,
+                    "key": 0,
+                    "patchFlag": 1,
+                    "props": {
+                      "class": "card-text-weight",
+                      "key": 0,
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "v-if",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <!--v-if-->,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 8,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": Symbol(v-cmt),
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "Price(€): 1.2",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      class="card-text-price"
+                    >
+                      Price(€): 1.2
+                    </p>,
+                    "key": null,
+                    "patchFlag": 1,
+                    "props": {
+                      "class": "card-text-price",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "-",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <a
+                      class="btn btn-light"
+                    >
+                      -
+                    </a>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "btn btn-light",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "a",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "+",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <a
+                      class="btn btn-success"
+                    >
+                      +
+                    </a>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "btn btn-success",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "a",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": "v-if",
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <!--v-if-->,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": null,
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 8,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": Symbol(v-cmt),
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="card-body"
+                >
+                  <h5
+                    class="card-title"
+                  >
+                    Apple
+                  </h5>
+                  <p
+                    class="card-text-weight"
+                  >
+                    Weight(g): 200
+                  </p>
+                  <!--v-if-->
+                  <p
+                    class="card-text-price"
+                  >
+                    Price(€): 1.2
+                  </p>
+                  <a
+                    class="btn btn-light"
+                  >
+                    -
+                  </a>
+                  <a
+                    class="btn btn-success"
+                  >
+                    +
+                  </a>
+                  <!--v-if-->
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "card-body",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                ],
+                "el": <img
+                  alt="Product image"
+                  class="card-img-top"
+                  height="200rem"
+                  src="apple.jpg"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Product image",
+                  "class": "card-img-top",
+                  "height": "200rem",
+                  "src": "apple.jpg",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "img",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Apple",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <h5
+                  class="card-title"
+                >
+                  Apple
+                </h5>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "card-title",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "h5",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Weight(g): 200",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": <p
+                  class="card-text-weight"
+                >
+                  Weight(g): 200
+                </p>,
+                "key": 0,
+                "patchFlag": 1,
+                "props": {
+                  "class": "card-text-weight",
+                  "key": 0,
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "p",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "v-if",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": <!--v-if-->,
+                "key": null,
+                "patchFlag": 0,
+                "props": null,
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 8,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": Symbol(v-cmt),
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Price(€): 1.2",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="card-text-price"
+                >
+                  Price(€): 1.2
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "card-text-price",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "p",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "v-if",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": <!--v-if-->,
+                "key": null,
+                "patchFlag": 0,
+                "props": null,
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 8,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": Symbol(v-cmt),
+              },
+            ],
+            "dynamicProps": null,
+            "el": <div
+              class="item-card"
+            >
+              <img
+                alt="Product image"
+                class="card-img-top"
+                height="200rem"
+                src="apple.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Apple
+                </h5>
+                <p
+                  class="card-text-weight"
+                >
+                  Weight(g): 200
+                </p>
+                <!--v-if-->
+                <p
+                  class="card-text-price"
+                >
+                  Price(€): 1.2
+                </p>
+                <a
+                  class="btn btn-light"
+                >
+                  -
+                </a>
+                <a
+                  class="btn btn-success"
+                >
+                  +
+                </a>
+                <!--v-if-->
+              </div>
+            </div>,
+            "key": null,
+            "patchFlag": 0,
+            "props": {
+              "class": "item-card",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "targetStart": null,
+            "transition": null,
+            "type": "div",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "C:/Users/Dr R.B. Kalia/Desktop/Projects/groceries/groceries/Frontend/src/components/ItemCards/ItemCard.vue",
+            "__name": "ItemCard",
+            "components": {},
+            "props": {
+              "age": [Function],
+              "discountId": [Function],
+              "id": [Function],
+              "isPack": [Function],
+              "itemName": [Function],
+              "itemType": [Function],
+              "price": [Function],
+              "productImage": [Function],
+              "weight": [Function],
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 9,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="item-card"
+        >
+          <img
+            alt="Product image"
+            class="card-img-top"
+            height="200rem"
+            src="apple.jpg"
+          />
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              Apple
+            </h5>
+            <p
+              class="card-text-weight"
+            >
+              Weight(g): 200
+            </p>
+            <!--v-if-->
+            <p
+              class="card-text-price"
+            >
+              Price(€): 1.2
+            </p>
+            <a
+              class="btn btn-light"
+            >
+              -
+            </a>
+            <a
+              class="btn btn-success"
+            >
+              +
+            </a>
+            <!--v-if-->
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "age": 5,
+          "id": "1",
+          "itemName": "Apple",
+          "itemType": "Fruit",
+          "price": 1.2,
+          "productImage": "apple.jpg",
+          "ref": "VTU_COMPONENT",
+          "weight": 200,
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "__file": "C:/Users/Dr R.B. Kalia/Desktop/Projects/groceries/groceries/Frontend/src/components/ItemCards/ItemCard.vue",
+          "__name": "ItemCard",
+          "components": {},
+          "props": {
+            "age": [Function],
+            "discountId": [Function],
+            "id": [Function],
+            "isPack": [Function],
+            "itemName": [Function],
+            "itemType": [Function],
+            "price": [Function],
+            "productImage": [Function],
+            "weight": [Function],
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 8,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="item-card"
+        >
+          <img
+            alt="Product image"
+            class="card-img-top"
+            height="200rem"
+            src="apple.jpg"
+          />
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              Apple
+            </h5>
+            <p
+              class="card-text-weight"
+            >
+              Weight(g): 200
+            </p>
+            <!--v-if-->
+            <p
+              class="card-text-price"
+            >
+              Price(€): 1.2
+            </p>
+            <a
+              class="btn btn-light"
+            >
+              -
+            </a>
+            <a
+              class="btn btn-success"
+            >
+              +
+            </a>
+            <!--v-if-->
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 4,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "runWithContext": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.4.34",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <div
+    class="item-card"
+  >
+    <img
+      alt="Product image"
+      class="card-img-top"
+      height="200rem"
+      src="apple.jpg"
+    />
+    <div
+      class="card-body"
+    >
+      <h5
+        class="card-title"
+      >
+        Apple
+      </h5>
+      <p
+        class="card-text-weight"
+      >
+        Weight(g): 200
+      </p>
+      <!--v-if-->
+      <p
+        class="card-text-price"
+      >
+        Price(€): 1.2
+      </p>
+      <a
+        class="btn btn-light"
+      >
+        -
+      </a>
+      <a
+        class="btn btn-success"
+      >
+        +
+      </a>
+      <!--v-if-->
+    </div>
+  </div>,
+}
+`;

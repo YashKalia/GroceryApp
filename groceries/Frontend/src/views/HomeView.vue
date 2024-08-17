@@ -1,5 +1,5 @@
 <script setup>
-import GroceryItemsGridContainer from '@/components/GroceryItemsGridContainer.vue';
+import GroceryItemsGridContainer from '@/components/Containers/GroceryItemsGridContainer.vue';
 </script>
 
 <template>

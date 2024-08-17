@@ -3,9 +3,9 @@
   <img :src="props.productImage"  class="card-img-top" alt="Product image" height =200rem>
   <div class="card-body">
     <h5 class="card-title">{{ itemName }}</h5>
-    <p v-if="weight > 0" class="card-text">Weight(g): {{ weight }}</p>
-    <p v-if="age >= 0 && itemType == 'Bread'" class="card-text">Age: {{ age }} days old</p>
-    <p class="card-text">Price(€): {{ price }}</p>
+    <p v-if="weight > 0" class="card-text-weight">Weight(g): {{ weight }}</p>
+    <p v-if="age >= 0 && itemType == 'Bread'" class="card-text-age">Age: {{ age }} days old</p>
+    <p class="card-text-price">Price(€): {{ price }}</p>
     <a class="btn btn-light" @click="decrement">-</a>
     <a class="btn btn-success" @click="increment">+</a>
     <p v-if="itemCount > 0">{{ itemCount }} units chosen</p>
@@ -17,7 +17,7 @@
  import {ref, defineProps} from 'vue';
 import {useItemStore} from "../../itemstore.js"
 
- const itemCount = ref(0);
+const itemCount = ref(0);
 const itemStore = useItemStore();
 
 //  const itemStore = useItemStore();
@@ -46,7 +46,7 @@ function decrement() {
 </script>
 
 <style>
-.card-text{
+.card-text-weight, .card-text-price .card-text-age{
     margin-bottom:0px;
 }
 

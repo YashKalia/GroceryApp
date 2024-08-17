@@ -1,79 +1,95 @@
-// GroceryItemsCustomizeContainer.spec.js
 import { mount } from '@vue/test-utils';
-import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { createPinia, setActivePinia } from 'pinia';
-import GroceryItemsCustomizeContainer from '@/components/GroceryItemsCustomizeContainer.vue';
-import ItemCustomizeCard from '@/components/ItemCards/ItemCustomizeCard.vue';
-import { useItemStore } from '@/itemstore'// Adjust the import based on your store's location
-import { createTestingPinia } from '@pinia/testing'
+import { describe, it, expect, vi } from 'vitest';
+import { createTestingPinia } from '@pinia/testing';
+import GroceryItemsCustomizeContainer from '../Containers/GroceryItemsCustomizeContainer.vue';
+import { getAllItems } from '@/services/ItemService';
+import flushPromises from 'flush-promises';
 
-// Mock the getAllItems service
+// Mock the getAllItems function
 vi.mock('@/services/ItemService', () => ({
   getAllItems: vi.fn(),
 }));
 
 describe('GroceryItemsCustomizeContainer.vue', () => {
-  let pinia;
-  let itemStore;
-  let wrapper; // Declare wrapper here
+    it('mounts and fetches items', async () => {
+        // Arrange
+        const items = [
+          { itemName: 'Item 1', price: 10, itemType: 'Type 1', id: '1', isPack: false, discountId: 'd1', age: 1, weight: 1, productImage: 'img1.jpg' },
+          { itemName: 'Item 2', price: 20, itemType: 'Type 2', id: '2', isPack: false, discountId: 'd2', age: 2, weight: 2, productImage: 'img2.jpg' },
+        ];
+    
+        const itemTypes = ['Type 1', 'Type 2'];
+        getAllItems.mockResolvedValue(items);
+    
+        // Act
+        const wrapper = mount(GroceryItemsCustomizeContainer, {
+            global: {
+              plugins: [createTestingPinia(
+                  {            
+                  createSpy: vi.fn()
+              }
+              )],
+            },
+          });
+        await flushPromises();
+    
+        // Assert
+        expect(getAllItems).toHaveBeenCalled();
+        expect(wrapper.vm.items).toEqual(items);
+        expect(wrapper.vm.itemTypes).toEqual(itemTypes);
+      });
+      
+  it('renders item types correctly', async () => {
+    // Arrange
+    const items = [
+      { itemName: 'Item 1', price: 10, itemType: 'Type 1', id: '1', isPack: false, discountId: 'd1', age: 1, weight: 1, productImage: 'img1.jpg' },
+      { itemName: 'Item 2', price: 20, itemType: 'Type 2', id: '2', isPack: false, discountId: 'd2', age: 2, weight: 2, productImage: 'img2.jpg' },
+    ];
+    getAllItems.mockResolvedValue(items);
 
-  beforeEach(() => {
-    pinia = createTestingPinia({
-      createSpy: vi.fn, // Configure spy functions
-    });
-
-    setActivePinia(pinia);
-    itemStore = useItemStore();
-
-    // Initialize store state before each test
-    itemStore.$state = {
-      cartItems: [
-        { id: 1, itemName: 'Apple', itemType: 'Fruit', price: 1.2, isPack: false, discountId: null, age: 7, weight: 0.5, productImage: 'apple.jpg' },
-        { id: 2, itemName: 'Broccoli', itemType: 'Vegetable', price: 2.0, isPack: false, discountId: null, age: 3, weight: 0.6, productImage: 'broccoli.jpg' }
-      ],
-    };
-  });
-
-  it('renders without crashing', async () => {
-    wrapper = mount(GroceryItemsCustomizeContainer, {
+    // Act
+    const wrapper = mount(GroceryItemsCustomizeContainer, {
       global: {
-        plugins: [pinia],
+        plugins: [createTestingPinia(
+            {            
+            createSpy: vi.fn()
+        }
+        )],
       },
     });
-
-    // Wait for the component to process the mounted hook
-    await wrapper.vm.$nextTick();
-
-    // Check that the items are correctly handled by the store
-    expect(itemStore.cartItems).toHaveLength(2);
-    // console.log("Wrapper", wrapper.vm)
-    expect(wrapper.vm.item).toEqual(['Fruit', 'Vegetable']);
-
-    // Check if the correct number of ItemCustomizeCard components are rendered
-    const cards = wrapper.findAllComponents(ItemCustomizeCard);
-    expect(cards).toHaveLength(2);
-
-    // Check if the first card has correct props
-    const firstCardProps = cards[0].props();
-    expect(firstCardProps.itemName).toBe('Apple');
-    expect(firstCardProps.price).toBe(1.2);
-    expect(firstCardProps.itemType).toBe('Fruit');
+    await flushPromises();
+    console.log("Wrapper html", wrapper.html());
+    // Assert
+    const itemTypes = wrapper.findAll('.product-type-heading');
+    console.log("Item types", itemTypes);
+    expect(itemTypes).toHaveLength(2);
+    expect(itemTypes[0].text()).toBe('Customize Type 1');
+    expect(itemTypes[1].text()).toBe('Customize Type 2');
   });
 
-  it('renders h1 title correctly for each item type', async () => {
-    wrapper = mount(GroceryItemsCustomizeContainer, {
-      global: {
-        plugins: [pinia],
-      },
-    });
+  it('should match Snapshot', async () => {
+    // Arrange
+    const items = [
+      { itemName: 'Item 1', price: 10, itemType: 'Type 1', id: '1', isPack: false, discountId: 'd1', age: 1, weight: 1, productImage: 'img1.jpg' },
+      { itemName: 'Item 2', price: 20, itemType: 'Type 2', id: '2', isPack: false, discountId: 'd2', age: 2, weight: 2, productImage: 'img2.jpg' },
+    ];
 
-    // Wait for the component to process the mounted hook
-    await wrapper.vm.$nextTick();
+    const itemTypes = ['Type 1', 'Type 2'];
+    getAllItems.mockResolvedValue(items);
 
-    // Check the presence and content of h1 tags
-    const titles = wrapper.findAll('.ProductTitle h1');
-    expect(titles).toHaveLength(2);
-    expect(titles[0].text()).toBe('Customize Fruit');
-    expect(titles[1].text()).toBe('Customize Vegetable');
+    // Act
+    const wrapper = mount(GroceryItemsCustomizeContainer, {
+        global: {
+          plugins: [createTestingPinia(
+              {            
+              createSpy: vi.fn()
+          }
+          )],
+        },
+      });
+    await flushPromises();
+
+    // Assert
+    expect(wrapper).toMatchSnapshot();
   });
 });

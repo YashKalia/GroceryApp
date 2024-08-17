@@ -22,17 +22,10 @@
         isVisible: Boolean,
 
     })
-    console.log("props.isVisible", props.isVisible)
-    var popUpVisible = ref(props.isVisible);
 
-    // function closePopup() {
-    //     popUpVisible.value = false;
-    //     console.log("popUpVisible.value",popUpVisible.value)
-    // }
-
-    function close() {
+  function close() {
     emit('update:visible', false); // Notify parent to close the popup
-}
+    }
   </script>
   
   <style scoped>
