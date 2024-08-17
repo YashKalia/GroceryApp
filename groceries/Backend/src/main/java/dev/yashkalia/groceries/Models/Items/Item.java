@@ -19,6 +19,8 @@ public class Item {
     private Integer Age;
     private String DiscountId;
     private Boolean IsPack;
+    private Integer Weight;
+    private String ProductImage;
 
     @Override
     public String toString() {
@@ -35,8 +37,7 @@ public class Item {
                 '}';
     }
 
-    private Integer Weight;
-    private String ProductImage;
+
 
 
 }

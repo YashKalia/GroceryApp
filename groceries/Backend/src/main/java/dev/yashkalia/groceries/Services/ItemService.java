@@ -38,10 +38,8 @@ public class ItemService {
 
 
     public List<Item> GetAllBeerItems(){
-
         return this.getAllItems().stream().filter(item -> {
             return ItemType.valueOf(item.getItemType()) == ItemType.Beer;
         }).toList();
-
     }
 }

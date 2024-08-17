@@ -1,4 +1,5 @@
 package dev.yashkalia.groceries.Services;
+import dev.yashkalia.groceries.Enums.DiscountType;
 import dev.yashkalia.groceries.Enums.ItemType;
 import dev.yashkalia.groceries.Models.CartItem.CartItem;
 import dev.yashkalia.groceries.Models.DiscountTypes.Discount;
@@ -23,9 +24,8 @@ public class DiscountService {
 
       List<Discount> discounts;
 
-
     public Reciept applyApplicableDiscount(List<CartItem> cartItems){
-        List<RecieptItem> reciept = new ArrayList<RecieptItem>();
+        List<RecieptItem> reciept = new ArrayList<>();
         float totalOrderPrice=0;
         for(CartItem cartItem : cartItems){
             switch (ItemType.valueOf(cartItem.getProps().getItemType())){
@@ -78,8 +78,9 @@ public class DiscountService {
 
     //Returns the total number of breads that can be taken after discount
     private int getTotalBreadsToTakeAfterDiscount(CartItem cartItem){
-        this.discounts = discountRepository.findAll();
-        Discount breadDiscount  = this.discounts.stream().filter( discount -> {return discount.getAge().equals(cartItem.getProps().getAge());}).findAny().orElse(null);
+        List<Discount>  breadDiscounts= GetAllBreadDiscounts();
+        System.out.println("CartItem age: "+cartItem.getProps().getAge());
+        Discount breadDiscount  = breadDiscounts.stream().filter( discount -> {return discount.getAge().equals(cartItem.getProps().getAge());}).findAny().orElse(null);
         if(breadDiscount!=null){
             if(cartItem.getItemCount() < breadDiscount.getBuy()){
 //                return cartItem.getItemCount() * cartItem.getProps().getPrice();
@@ -98,5 +99,11 @@ public class DiscountService {
             return vegetableDiscount.getDiscountPercentage();
         }
         return 0;
+    }
+
+    public List<Discount> GetAllBreadDiscounts(){
+        return this.discountRepository.findAll().stream().filter(discount -> {
+            return DiscountType.valueOf(discount.getType()) == DiscountType.BreadDiscount;
+        }).toList();
     }
 }
