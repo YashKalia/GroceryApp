@@ -108,7 +108,7 @@ class DiscountServiceTests {
 
         Discount breadDiscount = new Discount(
                 "breadDiscount123",    // id
-                "Bread",               // type
+                "BreadDiscount",               // type
                 1,                     // Age (e.g., 5 days old bread)
                 2,                     // Buy 2
                 1,                     // Take 1 free
@@ -139,7 +139,7 @@ class DiscountServiceTests {
 
         Discount breadDiscount = new Discount(
                 "breadDiscount123",    // id
-                "Bread",               // type
+                "BreadDiscount",               // type
                 5,                     // Age (e.g., 5 days old bread)
                 2,                     // Buy 2
                 1,                     // Take 1 free

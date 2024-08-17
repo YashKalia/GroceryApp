@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "test:updateShapsots": "vitest -u"
+    "test:updateSnapsots": "vitest -u"
   },
   "dependencies": {
     "@types/jsdom": "^21.1.7",
