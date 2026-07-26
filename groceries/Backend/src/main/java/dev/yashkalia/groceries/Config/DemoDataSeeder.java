@@ -27,13 +27,13 @@ public class DemoDataSeeder implements ApplicationRunner {
 
         Discount beerDiscount = new Discount();
         beerDiscount.setId("beer-discount");
-        beerDiscount.setType("Beer");
+        beerDiscount.setType("BeerDiscount");
         beerDiscount.setSixPackDiscountPrice(10);
         discountRepository.save(beerDiscount);
 
         Discount breadDiscount = new Discount();
         breadDiscount.setId("bread-discount");
-        breadDiscount.setType("Bread");
+        breadDiscount.setType("BreadDiscount");
         breadDiscount.setAge(3);
         breadDiscount.setBuy(2);
         breadDiscount.setTake(3);
@@ -41,7 +41,7 @@ public class DemoDataSeeder implements ApplicationRunner {
 
         Discount vegDiscount = new Discount();
         vegDiscount.setId("veg-discount");
-        vegDiscount.setType("Vegetable");
+        vegDiscount.setType("VegetableDiscount");
         vegDiscount.setWeightLowerLimit(100);
         vegDiscount.setWeightUpperLimit(500);
         vegDiscount.setDiscountPercentage(10f);
