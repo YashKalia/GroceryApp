@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: groceries-api
+    runtime: docker
+    dockerfilePath: ./groceries/Backend/Dockerfile
+    dockerContext: ./groceries/Backend
+    plan: free
+    healthCheckPath: /api/v1/items/items
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGO_DATABASE
+        value: groceries
